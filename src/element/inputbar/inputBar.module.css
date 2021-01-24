@@ -1,0 +1,27 @@
+.inputBarField label {
+  color: #606060;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: +0.5px;
+  font-family: "Josefin Slab", serif;
+}
+.inputBarField input {
+  font-family: "Baloo Da 2", cursive;
+  border: none;
+  outline: none;
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0;
+  width: 100%;
+  max-width: 280px;
+  line-height: normal;
+  font-size: 1.875rem;
+  color: #333333;
+  border: none;
+  border-bottom: 2px solid #d6d6d6;
+}
+.inputBarField input::placeholder {
+  color: #adadad;
+  opacity: 1;
+  line-height: normal !important;
+}

@@ -1,0 +1,45 @@
+.ErrorNoticeWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #333333;
+  padding: 2rem;
+  font-family: "Baloo Da 2", cursive;
+  animation: fadein 2s;
+}
+.NotFound404 {
+  opacity: 0.1;
+  font-size: 6.25rem;
+  line-height: 100%;
+  margin: 0;
+}
+.NotFoundHeading {
+  font-size: 2.5rem;
+  line-height: 100%;
+  margin: 0;
+}
+.NotFoundDetails {
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 600px) {
+  .ErrorNoticeWrapper {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .ErrorTextWrapper {
+    max-width: 180px;
+  }
+  .NotFound404 {
+    line-height: 140%;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

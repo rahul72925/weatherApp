@@ -1,0 +1,14 @@
+.icon {
+  display: block;
+  width: 7.875rem;
+  margin: 2rem auto;
+  animation: fadein 1s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
